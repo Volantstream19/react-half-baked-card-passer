@@ -1,5 +1,6 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
+import { UserProvider } from './context/CardContext.js';
 
 test('renders different players', () => {
   render(<App />);
